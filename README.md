@@ -14,3 +14,5 @@ Client: Docker Engine - Community
  Version:           19.03.6
  ...
 ```
+
+Jenkins image is based on image from [this](https://github.com/w7089/jenkins-monitoring) project
