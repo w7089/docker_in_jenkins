@@ -16,3 +16,5 @@ Client: Docker Engine - Community
 ```
 
 Jenkins image is based on image from [this](https://github.com/w7089/jenkins-monitoring) project
+
+Read more info about using this image [here](https://www.rokpoto.com/ci-cd-using-jenkins-and-docker/#running-cicd-pipeline-in-jenkins)
