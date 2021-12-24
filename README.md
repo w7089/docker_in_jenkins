@@ -1,4 +1,4 @@
-# docker_in_jenkins
+# Jenkins with docker client installed and mount docker socket
 
 Demo project showing how to create jenkins container with docker client installed in it
 
