@@ -1,0 +1,17 @@
+apiVersion: skaffold/v2beta26
+kind: Config
+metadata:
+  name: docker-in-jenkins
+build:
+  artifacts:
+  - image: docker_in_jenkins
+    context: jenkins
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - env-configmap.yaml
+    - jenkins-data-persistentvolumeclaim.yaml
+    - jenkins-deployment.yaml
+    - jenkins-service.yaml

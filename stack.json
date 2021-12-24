@@ -126,7 +126,7 @@
         "ContainerDefinitions" : [ 
           {
             "Name": "jenkins",
-            "Image": "jmenga/jenkins:ecs",
+            "Image": "warrior7089/docker_in_jenkins:latest",
             "Memory": 800,
             "PortMappings": [ { "ContainerPort": 8080, "HostPort": 8080 } ],
             "MountPoints": [
