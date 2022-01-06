@@ -25,7 +25,8 @@ spec:
         io.kompose.service: jenkins
     spec:
       containers:
-        - env:
+        - name: jenkins
+          env:
             - name: JENKINS_PASSWORD
               valueFrom:
                 configMapKeyRef:
@@ -37,7 +38,6 @@ spec:
                   key: JENKINS_USERNAME
                   name: env
           image: docker_in_jenkins
-          name: jenkins
           ports:
             - containerPort: 8080
           resources: {}
