@@ -17,4 +17,6 @@ Client: Docker Engine - Community
 
 Jenkins image is based on image from [this](https://github.com/w7089/jenkins-monitoring) project
 
-Read more info about using this image at [CI/CD using Jenkins and Docker](https://www.rokpoto.com/ci-cd-using-jenkins-and-docker/#running-cicd-pipeline-in-jenkins) and at [Kubernetes volumes demo](https://www.rokpoto.com/kubernetes-volumes-introduction/)
+Read more info about using this image at [CI/CD using Jenkins and Docker](https://www.rokpoto.com/ci-cd-using-jenkins-and-docker/#running-cicd-pipeline-in-jenkins) and at [Kubernetes volumes demo](https://www.rokpoto.com/kubernetes-volumes-introduction
+
+- Jenkins admin is configured and welcome screen is skipped using groovy init scripts 
