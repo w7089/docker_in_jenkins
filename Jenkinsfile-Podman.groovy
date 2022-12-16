@@ -1,6 +1,6 @@
 pipeline {
     agent  {
-        label 'dind-agent'
+        label 'podman'
     }
 
     stages {
